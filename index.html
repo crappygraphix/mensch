@@ -7,10 +7,31 @@
 
     <title>Mensch</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css" integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Hello</h1>
+    <div style="height: 200px"></div>
+    <div id="not_yet" class="container text-center">
+        <div>
+            <h1 id="timer"></h1>
+        </div>
     </div>
+    <div id="push_it_real_good" class="container text-center" style="display: none;">
+        <button id="push_me" type="button" class="btn btn-success btn-lg">Push Me</button>
+    </div>
+    <div id="tha_bizznass" class="container text-center" style="display: none;">
+        <div id="image_start">
+            <h2>I'm not a thief, but I'd do anything for you baby!</h2>
+            <h3 id="count_down">.....</h3>
+        </div>
+        <div id="image_a" style="display: none;">
+            <img src="A.jpg"/>
+            <h3 id="count_down_2">.....</h3>
+        </div>
+        <div id="image_b" style="display: none;">
+            <img src="B.jpg"/>
+        </div>
+    </div>
+    <script src="stuff.js"></script>
 </body>
 </html>
