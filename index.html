@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=1024">
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
     <meta name="description" content="Some stuff eh?">
     <meta name="author" content="Chris Johnston">
 
@@ -10,27 +10,24 @@
     <link rel="stylesheet" href="stuff.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
-<body>
-    <div style="height: 200px"></div>
-    <div id="not_yet" class="container text-center">
-        <div>
-            <h1 id="timer"></h1>
-        </div>
+<body class="container-fluid">
+    <div id="not_yet" class="text-center">
+        <h1 id="timer"></h1>
     </div>
-    <div id="push_it_real_good" class="container text-center" style="display: none;">
+    <div id="push_it_real_good" class="text-center" style="display: none;">
         <button id="push_me" type="button" class="btn btn-success btn-lg">Push Me</button>
     </div>
-    <div id="tha_bizznass" class="container text-center" style="display: none;">
+    <div id="tha_bizznass" class="text-center align-middle" style="display: none;">
         <div id="image_start">
-            <h2>I'm not normally one to steal content, but I'd do anything for you baby!</h2>
-            <h3 id="count_down">.....</h3>
+            <strong>I'm not normally one to steal content, but I'd do anything for you baby!</strong>
+            <div id="count_down"><strong>.....</strong></div>
         </div>
         <div id="image_a" style="display: none;">
-            <img src="A.jpg"/>
-            <h3 id="count_down_2">.....</h3>
+            <img class="fixed_cgx" src="A.jpg"/>
+            <div id="count_down_2"><strong>.....</strong></div>
         </div>
         <div id="image_b" style="display: none;">
-            <img src="B.jpg"/>
+            <img class="fixed_cgx" src="B.jpg"/>
         </div>
     </div>
     <script src="stuff.js"></script>

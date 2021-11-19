@@ -65,7 +65,10 @@ $("#push_me").click(function(e){
 update_time();
 
 function explode_forever(){
-    explode(Math.random() * $("body").width(), Math.random() * $("body").height());
+    var turd = $("body").width() * 0.33;
+    var turd2 = $("body").height() * 0.2;
+
+    explode(turd + (Math.random() * turd), turd2 + (Math.random() * turd2));
     setTimeout(explode_forever, 500);
 }
 

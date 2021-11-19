@@ -1,5 +1,22 @@
 body{
     overflow: hidden;
+    width: 1024px;
+}
+
+.fixed_cgx {
+  width: 100%;
+}
+
+#push_it_real_good {
+  padding-top: 200px;
+}
+
+#image_start {
+  margin-top: 200px;
+}
+
+#tha_bizznass{
+  margin-top: 200px;
 }
 
 .explosion {
